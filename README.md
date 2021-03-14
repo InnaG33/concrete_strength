@@ -1,6 +1,6 @@
 # concrete_strength
 ------------------------------------------------
-## Prediction of concrete compressive strength (MPa) as a function of its composition and age
+## Prediction of compressive concrete strength (MPa) as a function of its composition and age
 
 #### Continious numeric value for comressive strength of concreate was predicted using several algorithms, such as Linear Regression, Decision Tree, Random Forest, Bagging and Gradient Boosting Regressors. Because concrete is a highly nonlinear function of age and ingredients, Random Forest and Gradient Boosting Regressors outperformed Linear Regression, Ridge and Lasso algorithms. Grid and Randomized searches were applied for tuning of chosen algorithms. 
 
@@ -13,7 +13,6 @@ Found feature imprtances:
  ![final_model_features_importance](output/final_model_features_importance.png)
  
  Predicted vs. actual concrete strength values:
- 
  ![final_model_score](output/final_model_score.png)
 
 
